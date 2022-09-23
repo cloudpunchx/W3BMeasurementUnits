@@ -1,3 +1,97 @@
 html{
     background-color: goldenrod;
+    font-size: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#logo{
+    width: 150px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: white;
+    margin-left: 18px;
+}
+
+/* VH sizing for assignment */
+h1{   
+    font-size: 5vh;
+    display: inline;
+    margin: 15px;
+}
+
+/* VW sizing for assignment */
+nav > a{
+    font-size: 2vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(179, 100, 10);
+    padding: 15px 32px;
+    margin-left: 50px;
+    display: block;
+    white-space: normal;
+    width: fit-content;
+}
+
+a:visited{
+    color: rgb(255, 255, 255);
+}
+
+a:hover{
+    color: brown;
+}
+
+a:active{
+    color: olivedrab;
+}
+
+#profilehead{
+    margin: 50px;
+}
+
+/* REM sizing for assignment */
+div p{
+    font-size: 2rem;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+/* EM sizing for assignment */
+p{
+    font-size: 1.5rem;
+}
+
+.profile img{ 
+    height: 250px;
+    display: inline-block;
+    border: solid;
+    border-radius: 35px;
+    border-color: white;
+}
+
+.profile{
+    display: inline-block;
+    padding: 15px;
+    border: solid;
+    border-color: white;
+    background-color: rgb(179, 100, 10);
+}
+
+footer{
+    margin-top: 3%;
+}
+
+/* The % sizing for assignment */
+.buttons{
+    background-color: rgb(179, 100, 10);
+    border: none;
+    color: black;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 100%;
+    margin: 4px 2px;
+    cursor: pointer;
 }
